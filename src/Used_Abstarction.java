@@ -30,7 +30,19 @@ public class Used_Abstarction {
 
         Used_Abstarction USa = new Used_Abstarction();
 
+        Lion lion = new Lion();
+        lion.Animal_Sound();
+        lion.Animal_Area();
+
+        Sound polarBear = new Sound();
+        polarBear.Animal_Sound();
+        polarBear.Animal_Area();
 
 
+        Animal animal1 = new Lion();
+        animal1.Animal_Sound();
+
+        Animal animal2 = new Sound();
+        animal2.Animal_Sound();
     }
 }
